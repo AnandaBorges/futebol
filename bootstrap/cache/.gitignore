@@ -1,2 +1,38 @@
-*
-!.gitignore
+# Laravel default .gitignore
+
+# Laravel & Composer
+/vendor
+/node_modules
+
+# Laravel Logs
+/storage/logs
+
+# Laravel Cache
+/storage/framework/cache/data
+/storage/framework/sessions
+/storage/framework/views
+
+# Laravel IDE Helper
+/.vscode
+/.idea
+
+# Laravel Debugbar
+/public/debugbar
+
+# Environment File
+.env
+
+# Database
+/database/*.sqlite
+/database/*.sqlite3
+
+# Others
+/.phpunit.result.cache
+/.DS_Store
+/.env.*
+/phpunit.xml
+/phpunit.xml.dist
+
+# Ignore temporary files
+*.log
+*.tmp
